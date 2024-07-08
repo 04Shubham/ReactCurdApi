@@ -38,3 +38,4 @@ const makeApiRequestWithForm = (method, endpoint, data = null, params = null) =>
 export const apiFormJSONPost = (endpoint, data, params) => makeApiRequestWithForm('post', endpoint, data, params);
 export const apiJSONPost = (endpoint, data, params) => makeApiRequestWithJSON('post', endpoint, data, params);
 export const apiFormJSONGet = (endpoint, data, params) => makeApiRequestWithForm('get', endpoint, data, params);
+export const apiJSONPut = (endpoint, data, params) => makeApiRequestWithJSON('put', endpoint, data, params);
